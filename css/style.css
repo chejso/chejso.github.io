@@ -3,7 +3,7 @@
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+/* @import url('https://fonts.googleapis.com/css?family=Marck+Script'); */
 /* @font-face {
 	font-family: 'icomoon';
 	src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -419,6 +419,31 @@ button:focus{
 	/* words */
   }
 
+  @media screen and (max-width: 600px) {
+    .simply-countdown > .simply-section {
+      /* coutndown blocks */
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      }
+      .simply-countdown > .simply-section .simply-amount {
+        font-size: 14px;
+        /* amounts */
+      }
+      .simply-countdown > .simply-section > div {
+        vertical-align: inherit;
+        }
+        .simply-countdown > .simply-section .simply-word {
+          font-size: 10px;
+          /* words */
+          }
+
+          .pogoSlider-nav-bt {
+            width: 10px!important;
+            height: 10px!important;
+          }
+  }
+
 
 /*------------------------------------------------------------------
     Banner
@@ -487,7 +512,7 @@ button:focus{
 .lbox-details p strong{
 	color: #D4AF37;
 	font-size: 40px;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Great Vibes';
 }
 .lbox-details a.btn{
 	background: #63c7bd;
@@ -609,7 +634,7 @@ button:focus{
 }
 
 .display-font{
-	font-family: 'Marck Script', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-size: 30px;
 	color: #222222;
 }
@@ -670,7 +695,7 @@ button:focus{
 	background-color: #f1f1f1;
 }
 .family-info h4{
-	font-family: 'Marck Script', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-size: 24px;
 }
 .family-info p{
