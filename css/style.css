@@ -515,7 +515,7 @@ button:focus{
 	font-family: 'Great Vibes';
 }
 .lbox-details a.btn{
-	background: #63c7bd;
+	background: #008264;
 	padding: 10px 20px;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -792,7 +792,7 @@ button:focus{
 	font-weight: 500;
 }
 .event-inner a:hover{
-	background: #63c7bd;
+	background: #008264;
 }
 
 /*------------------------------------------------------------------
@@ -826,7 +826,7 @@ button:focus{
 }
 
 .submit-button .btn-common{
-	background-color: #63c7bd;
+	background-color: #008264;
 	height: 45px;
 	line-height: 45px;
 	font-size: 16px;
@@ -878,7 +878,7 @@ select.form-control:not([size]):not([multiple]){
 	color: #008264;
 }
 .footer-box .footer-company-name a:hover{
-	color: #63c7bd;
+	color: #008264;
 }
 
 #fh5co-testimonial,
@@ -1087,7 +1087,7 @@ select.form-control:not([size]):not([multiple]){
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 130, 100, 0.7);
+  background: rgba(0, 130, 100, 1);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
